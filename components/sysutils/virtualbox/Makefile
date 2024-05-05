@@ -26,7 +26,7 @@ GCC_VERSION= 12
 gcc_OPT =
 
 COMPONENT_NAME=         VirtualBox
-COMPONENT_VERSION=      6.1.48
+COMPONENT_VERSION=      7.0.18
 COMPONENT_REVISION=	0
 COMPONENT_SUMMARY=      VirtualBox - general-purpose full virtualizer
 COMPONENT_PROJECT_URL=  https://www.virtualbox.org/
@@ -115,7 +115,7 @@ LOCAL_CONFIG.64+='\nVBOX_WITH_VBOXDRV = 1'
 LOCAL_CONFIG.64+='\nVBOX_WITH_NETFLT = 1'
 LOCAL_CONFIG.64+='\nVBOX_WITH_NETADP = 1'
 
-# Disable audio/video-recording 
+# Disable audio/video-recording
 LOCAL_CONFIG.64+='\nVBOX_WITH_VIDEOREC ='
 LOCAL_CONFIG.64+='\nVBOX_WITH_AUDIO_VIDEOREC ='
 
